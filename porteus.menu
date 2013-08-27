@@ -1,10 +1,6 @@
 MENU BEGIN PORTEUS
-MENU LABEL ^Porteus 1.1
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
-MENU BACKGROUND er/plugins/porteus/porteus.png
+MENU TITLE Porteus 1.1
+MENU LABEL ^Porteus 1.1MENU BACKGROUND er/plugins/porteus/porteus.png
 
 MENU INCLUDE er/plugins/porteus/i386/porteusmain.menu
 MENU INCLUDE er/plugins/porteus/x86_64/porteusmain.menu
