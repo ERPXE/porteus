@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+porteus.menu
+porteus.png
+x86_64
+
+./i386:
+initrd.xz
+porteusmain.menu
+vmlinuz
+
+./x86_64:
+initrd.xz
+porteusmain.menu
+vmlinuz

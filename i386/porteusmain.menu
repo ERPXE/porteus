@@ -1,0 +1,9 @@
+LABEL PORTEUSX32
+MENU LABEL ^Porteus (LXDE) - x32
+KERNEL er/plugins/porteus/i386/vmlinuz
+INITRD er/plugins/porteus/i386/initrd.xz 
+APPEND copy2ram lxde ramdisk_size=10000 vga=791 from_dir=er/porteus/i386/porteus
+IPAPPEND 1
+TEXT HELP
+                 Porteus Live Linux X32.
+ENDTEXT

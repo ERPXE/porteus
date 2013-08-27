@@ -1,0 +1,9 @@
+LABEL PORTEUSX64
+MENU LABEL ^Porteus (LXDE) - x64
+KERNEL er/plugins/porteus/x86_64/vmlinuz
+INITRD er/plugins/porteus/x86_64/initrd.xz
+APPEND copy2ram lxde ramdisk_size=10000 vga=791 from_dir=er/porteus/x86_64/porteus
+IPAPPEND 1
+TEXT HELP
+                 Porteus Live Linux X64.
+ENDTEXT
